@@ -1,7 +1,10 @@
 def LuasSegiTiga(alas, tinggi):
     return 0.5 * alas * tinggi
 
+def LuasSegiEmpat(panjang, lebar):
+    return panjang * lebar
+
 def main():
-    print(LuasSegiTiga(2, 3))
+    print(LuasSegiEmpat(2, 3))
 
 main()
